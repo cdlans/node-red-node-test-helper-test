@@ -1,0 +1,21 @@
+{
+  "name": "node-red-node-test-helper-test",
+  "version": "1.0.0",
+  "description": "Recreating issue with global context in function node tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdlans/node-red-node-test-helper-test.git"
+  },
+  "author": "Casper Lans",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "node-red": "0.19.4",
+    "node-red-node-test-helper": "git://github.com/cdlans/node-red-node-test-helper",
+    "should": "13.2.3"
+  }
+}
